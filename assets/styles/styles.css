@@ -1,0 +1,51 @@
+:root {
+  font-size: 10px;
+}
+
+body {
+  background-color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.8rem;
+  line-height: 1.4;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  background-image: url('../images/panda.png');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 120px;
+  font-size: 3.6rem;
+  padding: 120px 0 0;
+}
+
+table {
+  width: 100%;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid #444;
+  padding: 0.5rem;
+}
+
+footer {
+  margin: 4rem 0 0;
+}
+
+/* 中屏 */
+@media (max-width: 1024px) {
+  body { width: 80%; }
+}
+
+/* 小屏 */
+@media (max-width: 768px) {
+  body { width: 95%; }
+}
